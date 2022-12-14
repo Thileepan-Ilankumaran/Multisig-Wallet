@@ -16,8 +16,12 @@
 
 4. Create an `.env` file in which mention "PVT_KEY=" and "RPC_URL="
 
-I have deployed in BSC Testnet. Here are the contract deployment addresses.
+5. Deploy to testnet `npx hardhat run scripts/deploy.js --network bsctestnet`
 
-Multisig Wallet: 0xBC0132300F4F49221b9b0bFB9aB171E7db53BA00
+* Reference to this project is [Gnosis MultisigWallet](https://github.com/gnosis/MultiSigWallet)
 
-Access Registry: 0x859F3285F030Fc15e91CD52454c3885c3e2B7eB0
+* I have deployed in BSC Testnet. Here are the contract deployment addresses.
+
+=> Multisig Wallet: [0xBC0132300F4F49221b9b0bFB9aB171E7db53BA00](https://testnet.bscscan.com/address/0xBC0132300F4F49221b9b0bFB9aB171E7db53BA00)
+
+=> Access Registry: [0x859F3285F030Fc15e91CD52454c3885c3e2B7eB0](https://testnet.bscscan.com/address/0x859F3285F030Fc15e91CD52454c3885c3e2B7eB0)
